@@ -49,7 +49,7 @@ jQuery(document).ready(function($) {
 	
 // top menu list	
 	$('.main-menu > span').on('click', function () {
-		$('.nav-list').slideToggle(300);
+		$('.nav-list').slideToggle();
 		
 	});
 	
@@ -1314,26 +1314,3 @@ jQuery(".post-comt-box textarea").on("keydown", function(event) {
 		
 	
 });//document ready end
-
-/*--- progress circle with percentage ---*/
-(function() {
-	
-	window.onload = function() {
-    var totalProgress, progres;
-		const circles = document.querySelectorAll('.progres');
-		for(var i = 0; i < circles.length; i++) {
-			totalProgress = circles[i].querySelector('circle').getAttribute('stroke-dasharray');
-			progress = circles[i].parentElement.getAttribute('data-percent');
-      circles[i].querySelector('.bar').style['stroke-dashoffset'] = totalProgress * progress / 100;
-      
-		}
-	};
-})();
-
-
-	
-
-
-
-
-
