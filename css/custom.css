@@ -1,33 +1,18 @@
 
 
 .top-area>ul>li {
-    display: inline-block;
-    position: relative;
-    vertical-align: top;
-    z-index: 2;
+   
     margin:auto 5px;
 }
 
-.top-area>ul>li>a.text {
-    color: #fff;
-    font-size: 13px;
-    padding: 0 0 0 40px;
-    width: auto;
-    text-transform: capitalize;
-    font-weight: 400;
-}
 
 .top-area>ul>li>a {
     color: #c4c4c4;
-    font-size: 16px;
-    position: relative;
-    display: inline-block;
+    font-size: 14px;  
     width: auto!important;
-    text-align: center;
-    transition: all 0.2s linear 0s;
-    vertical-align: middle;
+   
 }
-
+/* 
 .top-area>ul>li>a.active::after {
     border-bottom: 10px solid #fff;
     border-left: 10px solid transparent;
@@ -51,4 +36,18 @@
     text-align: left;
     width: 22%;
     margin-left: 10%;
+} */
+
+.dropdowns.languages {
+    padding: 0;
+    width: 120px;
+}
+
+.top-area>ul>li>a>em {    
+    right: -8px;
+}
+
+.top-area>ul>li>a>img {
+    width: 18px;
+    height: 18px;
 }
