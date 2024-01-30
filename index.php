@@ -252,25 +252,25 @@
 					<span>Newsfeed</span>
 				</div> -->
 				<ul class="setting-area">
-					<li><a href="/" title="Home" data-ripple="">Home</a>
+					<li><a href="/" title="Home" >Home</a>
 					</li>
-					<li><a href="/" title="Services" data-ripple="">Services</a>
+					<li><a href="/services" title="Services" >Services</a>
 					</li>
-					<li><a href="/" title="Jobs" data-ripple="">Jobs</a>
+					<li><a href="/jobs" title="Jobs" >Jobs</a>
 					</li>
-					<li><a href="/" title="Rental" data-ripple="">Rental</a>
+					<li><a href="/rental" title="Rental" >Rental</a>
 					</li>
-					<li><a href="/" title="Events" data-ripple="">Events</a>
+					<li><a href="/events" title="Events" >Events</a>
 					</li>
-					<li><a href="/" title="News" data-ripple="">News</a>
+					<li><a href="/news" title="News" >News</a>
 					</li>
-					<li><a href="/" title="Blog" data-ripple="">Blog</a>
+					<li><a href="/blog" title="Blog" >Blog</a>
 					</li>
-					<li><a href="/" title="Tools" data-ripple="">Tools</a>
+					<li><a href="/tools" title="Tools" >Tools</a>
 					</li>
 
 					<li>
-						<a href="#" title="Notification" data-ripple="">
+						<a href="#" title="Notification" >
 							<img src="images/svg/bell.svg" title="" alt=""><em class="bg-purple">7</em>
 						</a>
 						<div class="dropdowns">
