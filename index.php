@@ -22,7 +22,7 @@
 </head>
 
 <body>
-	
+
 	<div class="theme-layout">
 
 		<div class="postoverlay"></div>
@@ -32,7 +32,7 @@
 					<a class="" href="#menu"><i class="fa fa-align-justify"></i></a>
 				</span>
 				<span class="mh-text">
-					<a href="newsfeed.html" title=""><img src="images/logo.png" alt=""></a>
+					<a href="index.html" title=""><img src="images/logo.png" alt=""></a>
 				</span>
 				<span class="mh-btns-right">
 					<a class="fa fa-sliders" href="#shoppingbag"></a>
@@ -100,7 +100,7 @@
 							<li><a href="about.html" title="">Timeline About</a></li>
 							<li><a href="blog-posts.html" title="">Timeline Blog</a></li>
 							<li><a href="friends-birthday.html" title="">Friends' Birthday</a></li>
-							<li><a href="newsfeed.html" title="">Newsfeed</a></li>
+							<li><a href="index.html" title="">Newsfeed</a></li>
 							<li><a href="search-result.html" title="">Search Result</a></li>
 						</ul>
 					</li>
@@ -238,7 +238,7 @@
 
 		<div class="topbar stick">
 			<div class="logo">
-				<a title="" href="newsfeed.html"><img src="images/logo.png" alt=""></a>
+				<a title="" href="index.html"><img src="images/logo.png" alt=""></a>
 			</div>
 			<div class="top-area">
 
@@ -248,23 +248,25 @@
 						<button data-ripple><i class="ti-search"></i></button>
 					</form>
 				</div>
-				<div class="page-name">
+				<!-- <div class="page-name">
 					<span>Newsfeed</span>
-				</div>
+				</div> -->
 				<ul class="setting-area">
-					<li><a href="newsfeed.html" title="Home" data-ripple="">Home</a>
+					<li><a href="index.html" title="Home" data-ripple="">Home</a>
 					</li>
-					<li><a href="newsfeed.html" title="Services" data-ripple="">Services</a>
+					<li><a href="index.html" title="Services" data-ripple="">Services</a>
 					</li>
-					<li><a href="newsfeed.html" title="Jobs" data-ripple="">Jobs</a>
+					<li><a href="index.html" title="Jobs" data-ripple="">Jobs</a>
 					</li>
-					<li><a href="newsfeed.html" title="Rental" data-ripple="">Rental</a>
+					<li><a href="index.html" title="Rental" data-ripple="">Rental</a>
 					</li>
-					<li><a href="newsfeed.html" title="Events" data-ripple="">Events</a>
+					<li><a href="index.html" title="Events" data-ripple="">Events</a>
 					</li>
-					<li><a href="newsfeed.html" title="News" data-ripple="">News</a>
+					<li><a href="index.html" title="News" data-ripple="">News</a>
 					</li>
-					<li><a href="newsfeed.html" title="Blog" data-ripple="">Blog</a>
+					<li><a href="index.html" title="Blog" data-ripple="">Blog</a>
+					</li>
+					<li><a href="index.html" title="Tools" data-ripple="">Tools</a>
 					</li>
 					<li>
 						<a href="#" title="Friend Requests" data-ripple="">
@@ -407,7 +409,7 @@
 											<figure>
 												<span>"Celebrity looks Beautiful in that outfit! We should see
 													each"</span>
-												<img src="images/resources/admin.jpg" alt="">
+												<img src="images/resources/friend-avatar8.jpg" alt="">
 											</figure>
 										</div>
 									</a>
@@ -539,8 +541,8 @@
 
 				</ul>
 				<div class="user-img">
-					<h5>Jack Carter</h5>
-					<img src="images/resources/admin.jpg" alt="">
+					<h5>Monica Joshi</h5>
+					<img src="images/resources/friend-avatar8.jpg" alt="">
 					<span class="status f-online"></span>
 					<div class="user-setting">
 						<span class="seting-title">Chat setting <a href="#" title="">see all</a></span>
@@ -582,26 +584,13 @@
 													<span>@Monica12</span>
 												</figure>
 												<div class="page-meta">
-													<a href="#" title="" class="underline">Monica lee</a>
-													<span><i class="ti-comment"></i><a href="insight.html"
-															title="">Messages <em>9</em></a></span>
-													<span><i class="ti-bell"></i><a href="insight.html"
-															title="">Notifications <em>2</em></a></span>
+													<a href="#" title="" class="underline">Monica Joshi</a>
+													<span><i class="ti-comment"></i><a href="#" title="">Messages
+															<em>9</em></a></span>
+													<span><i class="ti-bell"></i><a href="#" title="">Notifications
+															<em>2</em></a></span>
 												</div>
-												<ul class="page-publishes">
-													<li>
-														<span><i class="ti-pencil-alt"></i>Publish</span>
-													</li>
-													<li>
-														<span><i class="ti-camera"></i>Photo</span>
-													</li>
-													<li>
-														<span><i class="ti-video-camera"></i>Live</span>
-													</li>
-													<li>
-														<span><i class="fa fa-user-plus"></i>Invite</span>
-													</li>
-												</ul>
+
 												<div class="page-likes">
 													<ul class="nav nav-tabs likes-btn">
 														<li class="nav-item"><a class="active" href="#folower"
@@ -672,6 +661,40 @@
 										</div><!-- My Profile -->
 
 										<div class="widget">
+											<h4 class="widget-title">Latest News <a class="see-all" href="#" title="">see all</a></h4>
+											<ul class="recent-links">
+												<li>
+													<figure><img alt="" src="images/resources/recentlink-1.jpg">
+													</figure>
+													<div class="re-links-meta">
+														<h6><a title="" href="#">Moira's fade reaches much
+																farther than you think.</a></h6>
+														<span>2 weeks ago </span>
+													</div>
+												</li>
+												<li>
+													<figure><img alt="" src="images/resources/recentlink-2.jpg">
+													</figure>
+													<div class="re-links-meta">
+														<h6><a title="" href="#">Daniel asks if we want him to
+																do the voice of doomfist</a></h6>
+														<span>3 months ago </span>
+													</div>
+												</li>
+												<li>
+													<figure><img alt="" src="images/resources/recentlink-3.jpg">
+													</figure>
+													<div class="re-links-meta">
+														<h6><a title="" href="#">The uNepal overwatch
+																scandals.</a></h6>
+														<span>1 day before</span>
+													</div>
+												</li>
+											</ul>
+											
+										</div><!-- lastest news -->
+
+										<div class="widget">
 											<h4 class="widget-title">Latest Videos</h4>
 											<ul class="widget-video">
 												<li>
@@ -721,23 +744,7 @@
 												</li>
 											</ul>
 										</div><!-- latest video-->
-										<div class="widget whitish low-opacity">
-											<div style="background-image: url(images/resources/dob2.png)"
-												class="bg-image"></div>
-											<div class="dob-head">
-												<img src="images/resources/sug-page-5.jpg" alt="">
-												<span>22nd Birthday</span>
-												<div class="dob">
-													<i>19</i>
-													<span>September</span>
-												</div>
-											</div>
-											<div class="dob-meta">
-												<figure><img src="images/resources/dob-cake.gif" alt=""></figure>
-												<h6><a href="#" title="">Lucy Carbel</a> valentine's birthday</h6>
-												<p>leave a message with your best wishes on his profile.</p>
-											</div>
-										</div><!-- birthday widget -->
+
 										<div class="advertisment-box">
 											<h4 class="">advertisment</h4>
 											<figure>
@@ -824,7 +831,7 @@
 										<span class="create-post">Create post</span>
 										<div class="new-postbox">
 											<figure>
-												<img src="images/resources/admin.jpg" alt="">
+												<img src="images/resources/friend-avatar8.jpg" alt="">
 											</figure>
 											<div class="newpst-input">
 												<form method="post">
@@ -1038,6 +1045,23 @@
 											</div>
 										</div>
 									</div><!-- top stories -->
+									<div class="central-meta postbox d-none">
+
+										<ul class="nav nav-tabs trend">
+
+											<li class="nav-item"><a class="" href="#hot" data-toggle="tab">Feeds</a>
+											</li>
+											<li class="nav-item"><a class="" href="#hot"
+													data-toggle="tab">Marketplace</a> </li>
+											<li class="nav-item"><a class="" href="#hot" data-toggle="tab">My Groups</a>
+											</li>
+											<li class="nav-item"><a class="" href="#hot" data-toggle="tab">My
+													Profile</a> </li>
+										</ul>
+									</div>
+
+
+
 									<div class="loadMore">
 										<div class="central-meta item">
 											<div class="user-post">
@@ -1064,7 +1088,7 @@
 																</ul>
 															</div>
 														</div>
-														<ins><a href="time-line.html" title="">Jack Carter</a> Post
+														<ins><a href="time-line.html" title="">Monica Joshi</a> Post
 															Album</ins>
 														<span><i class="fa fa-globe"></i> published: September,15 2020
 															19:PM </span>
@@ -2832,7 +2856,7 @@
 					<figure><img src="images/resources/share-post.jpg" alt=""></figure>
 					<div class="friend-info">
 						<figure>
-							<img alt="" src="images/resources/admin.jpg">
+							<img alt="" src="images/resources/friend-avatar8.jpg">
 						</figure>
 						<div class="friend-name">
 							<ins><a title="" href="time-line.html">Jack Carter</a> share <a title=""
