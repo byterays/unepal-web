@@ -26,7 +26,7 @@ jQuery(document).ready(function($) {
 	 $(this).addClass('active').parent().siblings().children('a').removeClass('active');
 	 $parent.siblings().children('div').removeClass('active');
 	 $(this).siblings('div').toggleClass('active');
-	  	return true;
+	  	return false;
   });
 
   $("body *").not('.top-area > .setting-area > li > a').on("click", function() {
