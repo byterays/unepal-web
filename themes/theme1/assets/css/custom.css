@@ -1,0 +1,53 @@
+
+.responsive-header, .mh-head{
+    background: #015b91;
+}
+
+.top-area>ul>li {
+   
+    margin:auto 5px;
+}
+
+
+.top-area>ul>li>a {
+    color: #c4c4c4;
+    font-size: 14px;  
+    width: auto!important;
+   
+}
+.top-search {
+    float: left;   
+    width: 26%; 
+    margin-left: 10%;  
+}
+
+@media screen and (max-width: 1400px) {
+    .top-search {
+       
+        margin-left: 0;  
+    }
+ }
+
+
+.dropdowns.languages {
+    padding: 0;
+    width: 120px;
+}
+
+.top-area>ul>li>a>em {    
+    right: -8px;
+}
+
+.top-area>ul>li>a>img {
+    width: 18px;
+    height: 18px;
+}
+
+/* 
+.nav.nav-tabs.trend li {
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    width: 24%;
+    margin: auto 2px!important;
+} */
