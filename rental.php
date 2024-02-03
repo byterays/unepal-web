@@ -36,7 +36,7 @@ require_once "app/loader.php";
                             <?php
                             //page widgets
                             $main_widgets = [
-                                "create-post", "stories"
+                                "create-rental", "stories"
                             ];
 
                             foreach ($main_widgets as $widget) {
